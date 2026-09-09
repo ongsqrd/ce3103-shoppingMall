@@ -1,6 +1,6 @@
 USE shopDB;
 
-SET SQL_SAFE_UPADTES = 0;
+SET SQL_SAFE_UPDATES = 0;
 
 DELETE FROM Payments;
 DELETE FROM Deliveries;
@@ -402,4 +402,4 @@ INSERT INTO Deliveries (DeliveryID, OrderID, FulfillmentType, DeliveryStatus, Ad
 (14, 14, 'pickup', 'delivered', NULL, 2, '2024-02-19', '2024-02-19 14:15:00'),
 (15, 15, 'delivery', 'cancelled', 3, 1, '2024-02-20', NULL);
 
-SET SQL_SAFE_UPADTES = 1;
+SET SQL_SAFE_UPDATES = 1;
