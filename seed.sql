@@ -28,8 +28,6 @@ DELETE FROM Employees;
 DELETE FROM Departments;
 DELETE FROM Roles;
 
-USE shopDB;
-
 INSERT INTO Roles (RoleID, RoleName) VALUES
 (1, 'Manager'),
 (2, 'Assistant Manager'),
